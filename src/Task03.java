@@ -14,7 +14,7 @@ public class Task03 {
             if (arr[i] < 1 || arr[i] > 50) {
                 System.out.println("输入错误，请重新输入");
                 i--;
-            } else {//
+            } else {
                 for (int j = 0; j <(int) arr[i]; j++) {
                     System.out.print("*");
                 }
