@@ -10,7 +10,12 @@ public class Task02 {
     }
 
     public static int getLength(String str){
-
-        return str.length();
+        int length = 0;
+        for (int i = 0; i < str.length(); i++) {
+            length++;
+        }
+        return length;
     }
+
+
 }

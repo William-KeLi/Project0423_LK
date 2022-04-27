@@ -5,12 +5,13 @@ public class Task03 {
     public static void main(String[] args) {
         printStar();
     }
+
     private static void printStar(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("请依次输入7个数，每次输入完就按一下回车");
         double[] arr = new double[7];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = scanner.nextDouble();
+            arr[i] = scanner.nextDouble();//
             if (arr[i] < 1 || arr[i] > 50) {
                 System.out.println("输入错误，请重新输入");
                 i--;
